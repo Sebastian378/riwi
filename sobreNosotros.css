@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+header{
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    position: fixed;
+    border: 1px solid black;
+}
+
+body{
+    font-family: 'Neuton', serif;
+}
+
+
+.logo-menu{
+    float: left;
+    line-height: 65px;
+}
+
+.logo-menu img {
+    width: 200px;
+    margin: auto;
+}
+
+.menu{
+    float: right;
+    line-height: 65px;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    padding: 0px 20px;
+}
+
+.menu li:hover{
+    background-color: #848fa5;
+    height: 65px;
+    cursor: pointer;
+}
+
+.menu .submenu{
+    background-color: white;
+    display: none;
+    border: 1px solid black;
+}
+
+.menu .submenu li a{
+    line-height: 50px;
+
+}
+
+.menu li:hover .submenu{
+    display: block;
+    width: 150px;
+    position: absolute;
+}
+
+
+.caja1{ 
+    background-color: #848fa5;
+    height: 100px;
+    width: 700px;
+    margin: auto;
+}
+
+h1{ 
+    font-style: oblique;
+    color: #fefae0;
+}
+
+.vision{
+    margin-top: 25px;
+}
+
+.Mision{
+    margin-top: 25px;
+} 
+
+footer{
+    height: 150px;
+    width: 100%;
+}
+
+.grid-footer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    height: 150px;
+}
+
+.caja-footer{
+    height: 150px;
+    padding: 5px;
+}
+
+.caja-baja-footer{
+    padding: 5px;
+    height: auto;
+    grid-column: 1/5;
+}
+
+.caja-baja-footer-izquierda{
+    width: 50%;
+    float: left;
+}
+
+.caja-baja-footer-derecha{
+    width: 50%;
+    float: right;
+}
+
+.hijo-footer{
+    float: right;
+}
+
+.caja-baja-footer-derecha i {
+    font-size: 25px;
+}
+
+.facebook:hover{
+    color: blue;
+}
+
+.twitter:hover{
+    color: cyan;
+}
+
+.instagram:hover{
+    color: indianred;
+}
+
+.youtube:hover{
+    color: red;
+}
+
+.linkedin:hover{
+    color: cornflowerblue;
+}
