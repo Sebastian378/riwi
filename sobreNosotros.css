@@ -30,6 +30,7 @@ body{
 .menu{
     float: right;
     line-height: 65px;
+    margin-right: 150px;
 }
 
 .menu ul{
@@ -60,7 +61,7 @@ body{
 
 .menu li:hover .submenu{
     display: block;
-    width: 150px;
+    width: auto;
     position: absolute;
 }
 
@@ -144,4 +145,8 @@ footer{
 
 .linkedin:hover{
     color: cornflowerblue;
+}
+
+i{
+    color: black;
 }
